@@ -1,0 +1,18 @@
+
+.cuadro-texto {
+    display: inline-block;
+    padding: 10px;
+    animation-name: scroll-text;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes scroll-text {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
